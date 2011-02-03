@@ -1,0 +1,436 @@
+TFPO
+v7
+r0
+t318418850.162239
+cCheck dependencies
+cProcessInfoPlistFile /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Info.plist FPO-Info.plist
+cCopyStringsFile /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/AJ/Code/cocoa/FPO/English.lproj/MainMenu.xib
+cCpResource build/Release/FPO.app/Contents/Resources/test.png test.png
+cCpResource build/Release/FPO.app/Contents/Resources/icon.png icon.png
+cCpResource build/Release/FPO.app/Contents/Resources/icon.icns icon.icns
+cProcessPCH /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-butsbnnujapwpwbvtflcdenvdbri/FPO_Prefix.pch.gch FPO_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-fpxdathlycycabgatsqfrhxjwzrc/FPO_Prefix.pch.gch FPO_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-eofcdenhvoxwctefksxdhkfnarud/FPO_Prefix.pch.gch FPO_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FPO.build/Release/FPO.build/Objects-normal/x86_64/main.o /Users/AJ/Code/cocoa/FPO/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FPO.build/Release/FPO.build/Objects-normal/x86_64/FPOAppDelegate.o /Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/x86_64/FPO normal x86_64
+cCompileC build/FPO.build/Release/FPO.build/Objects-normal/i386/main.o /Users/AJ/Code/cocoa/FPO/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FPO.build/Release/FPO.build/Objects-normal/i386/FPOAppDelegate.o /Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/i386/FPO normal i386
+cCompileC build/FPO.build/Release/FPO.build/Objects-normal/ppc/main.o /Users/AJ/Code/cocoa/FPO/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FPO.build/Release/FPO.build/Objects-normal/ppc/FPOAppDelegate.o /Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/ppc/FPO normal ppc
+cCreateUniversalBinary /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/MacOS/FPO normal "x86_64 i386 ppc"
+cGenerateDSYMFile /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app.dSYM /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/MacOS/FPO
+cTouch /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C5342BA00000000000000EE
+t1280524986
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004C8170CF000000000000A5E0
+t1283551439
+s42464
+
+N/Users/AJ/Code/cocoa/FPO/English.lproj/InfoPlist.strings
+c000000004D4A3F2A000000000000002D
+t1296711466
+s45
+
+N/Users/AJ/Code/cocoa/FPO/English.lproj/MainMenu.xib
+c000000004D4A6438000000000000C5E2
+t1296720952
+s50658
+
+N/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.h
+c000000004D4A642E0000000000000357
+t1296720942
+s855
+i<Cocoa/Cocoa.h>
+
+N/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m
+c000000004D4A64230000000000000E0E
+t1296720931
+s3598
+i"FPOAppDelegate.h"
+
+N/Users/AJ/Code/cocoa/FPO/FPO_Prefix.pch
+c000000004D4A3F2A0000000000000089
+t1296711466
+s137
+i<Cocoa/Cocoa.h>
+
+N/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/i386/FPO
+t1296725944
+s19728
+
+N/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/i386/FPO.LinkFileList
+c000000004D4A77B200000000000000B6
+t1296725938
+s182
+
+N/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/i386/FPOAppDelegate.o
+t1296725944
+s29184
+
+N/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/i386/main.o
+t1296725944
+s4816
+
+N/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/ppc/FPO
+t1296725944
+s19264
+
+N/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/ppc/FPO.LinkFileList
+c000000004D4A77B200000000000000B4
+t1296725938
+s180
+
+N/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/ppc/FPOAppDelegate.o
+t1296725944
+s30724
+
+N/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/ppc/main.o
+t1296725944
+s4844
+
+N/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/x86_64/FPO
+t1296725944
+s17528
+
+N/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/x86_64/FPO.LinkFileList
+c000000004D4A77B200000000000000BA
+t1296725938
+s186
+
+N/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/x86_64/FPOAppDelegate.o
+t1296725944
+s41796
+
+N/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/x86_64/main.o
+t1296725944
+s5016
+
+N/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app
+t1296726050
+s102
+
+N/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app.dSYM
+t1296725944
+s102
+
+N/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Info.plist
+t1296726050
+s964
+
+N/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/MacOS/FPO
+t1296725944
+s64320
+
+N/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/PkgInfo
+t1296726050
+s8
+
+N/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1296725939
+s92
+
+N/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Resources/English.lproj/MainMenu.nib
+t1296725939
+s7012
+
+N/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Resources/icon.icns
+t1296726050
+s171488
+
+N/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Resources/icon.png
+t1296725939
+s23551
+
+N/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Resources/test.png
+t1296725939
+s1912
+
+N/Users/AJ/Code/cocoa/FPO/icon.icns
+c000000004D4A78080000000000029DE0
+t1296726024
+s171488
+
+N/Users/AJ/Code/cocoa/FPO/icon.png
+c000000004D4A77580000000000005BFF
+t1296725848
+s23551
+
+N/Users/AJ/Code/cocoa/FPO/main.m
+c000000004D4A3F2A00000000000000F8
+t1296711466
+s248
+i<Cocoa/Cocoa.h>
+
+N/Users/AJ/Code/cocoa/FPO/test.png
+c000000004D4A4AA50000000000000778
+t1296714405
+s1912
+
+N/var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-butsbnnujapwpwbvtflcdenvdbri/FPO_Prefix.pch.gch
+t1296725943
+s52922128
+
+N/var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-eofcdenhvoxwctefksxdhkfnarud/FPO_Prefix.pch.gch
+t1296725943
+s52794960
+
+N/var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-fpxdathlycycabgatsqfrhxjwzrc/FPO_Prefix.pch.gch
+t1296725943
+s55559984
+
+NFPO-Info.plist
+c000000004D4A78180000000000000414
+t1296726040
+s1044
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318418850#318418850#0(0"0(0#1#0"8616386208#0"0#
+
+CCompileC build/FPO.build/Release/FPO.build/Objects-normal/i386/FPOAppDelegate.o /Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318418744.022770
+e318418744.240868
+r1
+xCompileC
+xbuild/FPO.build/Release/FPO.build/Objects-normal/i386/FPOAppDelegate.o
+x/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m: In function '-[FPOAppDelegate awakeFromNib]':
+o/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m:31: warning: incompatible Objective-C types 'struct NSButton *', expected 'struct NSButtonCell *' when passing argument 1 of 'setDefaultButtonCell:' from distinct Objective-C type
+lSLF07#2@49"Compile /Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m318418744#318418744#0(311"/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m: In function '-[FPOAppDelegate awakeFromNib]':/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m:31: warning: incompatible Objective-C types 'struct NSButton *', expected 'struct NSButtonCell *' when passing argument 1 of 'setDefaultButtonCell:' from distinct Objective-C type1(22@166"Incompatible Objective-C types 'struct NSButton *', expected 'struct NSButtonCell *' when passing argument 1 of 'setDefaultButtonCell:' from distinct Objective-C type318418744#89#222#0(6@41"/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m318413731#31#0#31#0#0"0(0#0#41"/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m8612830144#1266"    cd /Users/AJ/Code/cocoa/FPO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-generated-files.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-own-target-headers.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-all-target-headers.hmap -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-project-headers.hmap -F/Users/AJ/Code/cocoa/FPO/build/Release -I/Users/AJ/Code/cocoa/FPO/build/Release/include -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources/i386 -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources -include /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-fpxdathlycycabgatsqfrhxjwzrc/FPO_Prefix.pch -c /Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m -o /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/i386/FPOAppDelegate.o0#
+
+CCompileC build/FPO.build/Release/FPO.build/Objects-normal/i386/main.o /Users/AJ/Code/cocoa/FPO/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318418744.022141
+e318418744.200486
+r1
+xCompileC
+xbuild/FPO.build/Release/FPO.build/Objects-normal/i386/main.o
+x/Users/AJ/Code/cocoa/FPO/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Compile /Users/AJ/Code/cocoa/FPO/main.m318418744#318418744#0(0"0(0#0#31"/Users/AJ/Code/cocoa/FPO/main.m8613665600#1246"    cd /Users/AJ/Code/cocoa/FPO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-generated-files.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-own-target-headers.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-all-target-headers.hmap -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-project-headers.hmap -F/Users/AJ/Code/cocoa/FPO/build/Release -I/Users/AJ/Code/cocoa/FPO/build/Release/include -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources/i386 -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources -include /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-fpxdathlycycabgatsqfrhxjwzrc/FPO_Prefix.pch -c /Users/AJ/Code/cocoa/FPO/main.m -o /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/i386/main.o0#
+
+CCompileC build/FPO.build/Release/FPO.build/Objects-normal/ppc/FPOAppDelegate.o /Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s318418744.200578
+e318418744.562193
+r1
+xCompileC
+xbuild/FPO.build/Release/FPO.build/Objects-normal/ppc/FPOAppDelegate.o
+x/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m: In function '-[FPOAppDelegate awakeFromNib]':
+o/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m:31: warning: incompatible Objective-C types 'struct NSButton *', expected 'struct NSButtonCell *' when passing argument 1 of 'setDefaultButtonCell:' from distinct Objective-C type
+lSLF07#2@49"Compile /Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m318418744#318418744#0(311"/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m: In function '-[FPOAppDelegate awakeFromNib]':/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m:31: warning: incompatible Objective-C types 'struct NSButton *', expected 'struct NSButtonCell *' when passing argument 1 of 'setDefaultButtonCell:' from distinct Objective-C type1(22@166"Incompatible Objective-C types 'struct NSButton *', expected 'struct NSButtonCell *' when passing argument 1 of 'setDefaultButtonCell:' from distinct Objective-C type318418744#89#222#0(6@41"/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m318413731#31#0#31#0#0"0(0#0#41"/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m8612389920#1273"    cd /Users/AJ/Code/cocoa/FPO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-generated-files.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-own-target-headers.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-all-target-headers.hmap -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-project-headers.hmap -F/Users/AJ/Code/cocoa/FPO/build/Release -I/Users/AJ/Code/cocoa/FPO/build/Release/include -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources/ppc -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources -include /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-eofcdenhvoxwctefksxdhkfnarud/FPO_Prefix.pch -c /Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m -o /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/ppc/FPOAppDelegate.o0#
+
+CCompileC build/FPO.build/Release/FPO.build/Objects-normal/ppc/main.o /Users/AJ/Code/cocoa/FPO/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s318418744.168054
+e318418744.562030
+r1
+xCompileC
+xbuild/FPO.build/Release/FPO.build/Objects-normal/ppc/main.o
+x/Users/AJ/Code/cocoa/FPO/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Compile /Users/AJ/Code/cocoa/FPO/main.m318418744#318418744#0(0"0(0#0#31"/Users/AJ/Code/cocoa/FPO/main.m8598553440#1253"    cd /Users/AJ/Code/cocoa/FPO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-generated-files.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-own-target-headers.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-all-target-headers.hmap -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-project-headers.hmap -F/Users/AJ/Code/cocoa/FPO/build/Release -I/Users/AJ/Code/cocoa/FPO/build/Release/include -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources/ppc -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources -include /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-eofcdenhvoxwctefksxdhkfnarud/FPO_Prefix.pch -c /Users/AJ/Code/cocoa/FPO/main.m -o /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/FPO.build/Release/FPO.build/Objects-normal/x86_64/FPOAppDelegate.o /Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318418744.021504
+e318418744.225420
+r1
+xCompileC
+xbuild/FPO.build/Release/FPO.build/Objects-normal/x86_64/FPOAppDelegate.o
+x/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m: In function '-[FPOAppDelegate awakeFromNib]':
+o/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m:31: warning: incompatible Objective-C types 'struct NSButton *', expected 'struct NSButtonCell *' when passing argument 1 of 'setDefaultButtonCell:' from distinct Objective-C type
+lSLF07#2@49"Compile /Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m318418744#318418744#0(311"/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m: In function '-[FPOAppDelegate awakeFromNib]':/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m:31: warning: incompatible Objective-C types 'struct NSButton *', expected 'struct NSButtonCell *' when passing argument 1 of 'setDefaultButtonCell:' from distinct Objective-C type1(22@166"Incompatible Objective-C types 'struct NSButton *', expected 'struct NSButtonCell *' when passing argument 1 of 'setDefaultButtonCell:' from distinct Objective-C type318418744#89#222#0(6@41"/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m318413731#31#0#31#0#0"0(0#0#41"/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m8617420096#1272"    cd /Users/AJ/Code/cocoa/FPO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-generated-files.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-own-target-headers.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-all-target-headers.hmap -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-project-headers.hmap -F/Users/AJ/Code/cocoa/FPO/build/Release -I/Users/AJ/Code/cocoa/FPO/build/Release/include -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources/x86_64 -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources -include /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-butsbnnujapwpwbvtflcdenvdbri/FPO_Prefix.pch -c /Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m -o /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/x86_64/FPOAppDelegate.o0#
+
+CCompileC build/FPO.build/Release/FPO.build/Objects-normal/x86_64/main.o /Users/AJ/Code/cocoa/FPO/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318418744.020794
+e318418744.167887
+r1
+xCompileC
+xbuild/FPO.build/Release/FPO.build/Objects-normal/x86_64/main.o
+x/Users/AJ/Code/cocoa/FPO/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Compile /Users/AJ/Code/cocoa/FPO/main.m318418744#318418744#0(0"0(0#0#31"/Users/AJ/Code/cocoa/FPO/main.m8683867936#1252"    cd /Users/AJ/Code/cocoa/FPO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-generated-files.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-own-target-headers.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-all-target-headers.hmap -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-project-headers.hmap -F/Users/AJ/Code/cocoa/FPO/build/Release -I/Users/AJ/Code/cocoa/FPO/build/Release/include -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources/x86_64 -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources -include /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-butsbnnujapwpwbvtflcdenvdbri/FPO_Prefix.pch -c /Users/AJ/Code/cocoa/FPO/main.m -o /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/AJ/Code/cocoa/FPO/English.lproj/MainMenu.xib
+s318418738.886733
+e318418739.671687
+r1
+xCompileXIB
+x/Users/AJ/Code/cocoa/FPO/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib318418738#318418739#0(0"0(0#0#51"/Users/AJ/Code/cocoa/FPO/English.lproj/MainMenu.xib8613175264#320"    cd /Users/AJ/Code/cocoa/FPO    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Resources/English.lproj/MainMenu.nib /Users/AJ/Code/cocoa/FPO/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s318418738.886047
+e318418739.427643
+r1
+xCopyStringsFile
+x/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings318418738#318418739#0(0"0(0#0#56"/Users/AJ/Code/cocoa/FPO/English.lproj/InfoPlist.strings8613286912#335"    cd /Users/AJ/Code/cocoa/FPO    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Release/FPO.app/Contents/Resources/icon.icns icon.icns
+s318418850.155512
+e318418850.159060
+r1
+xCpResource
+xbuild/Release/FPO.app/Contents/Resources/icon.icns
+xicon.icns
+lSLF07#2@14"Copy icon.icns318418850#318418850#0(0"0(0#0#34"/Users/AJ/Code/cocoa/FPO/icon.icns8611338016#302"    cd /Users/AJ/Code/cocoa/FPO    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/AJ/Code/cocoa/FPO/icon.icns /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Resources0#
+
+CCpResource build/Release/FPO.app/Contents/Resources/icon.png icon.png
+s318418738.887588
+e318418739.052720
+r1
+xCpResource
+xbuild/Release/FPO.app/Contents/Resources/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png318418738#318418739#0(0"0(0#0#33"/Users/AJ/Code/cocoa/FPO/icon.png8613096480#301"    cd /Users/AJ/Code/cocoa/FPO    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/AJ/Code/cocoa/FPO/icon.png /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Resources0#
+
+CCpResource build/Release/FPO.app/Contents/Resources/test.png test.png
+s318418738.887164
+e318418739.052885
+r1
+xCpResource
+xbuild/Release/FPO.app/Contents/Resources/test.png
+xtest.png
+lSLF07#2@13"Copy test.png318418738#318418739#0(0"0(0#0#33"/Users/AJ/Code/cocoa/FPO/test.png8613126624#301"    cd /Users/AJ/Code/cocoa/FPO    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/AJ/Code/cocoa/FPO/test.png /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Resources0#
+
+CCreateUniversalBinary /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/MacOS/FPO normal "x86_64 i386 ppc"
+s318418744.860864
+e318418744.905814
+r1
+xCreateUniversalBinary
+x/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/MacOS/FPO
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@87"CreateUniversalBinary build/Release/FPO.app/Contents/MacOS/FPO normal "x86_64 i386 ppc"318418744#318418744#0(0"0(0#0#40"/Users/AJ/Code/cocoa/FPO/x86_64 i386 ppc8610354464#382"    cd /Users/AJ/Code/cocoa/FPO    /usr/bin/lipo -create /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/x86_64/FPO /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/i386/FPO /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/ppc/FPO -output /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/MacOS/FPO0#
+
+CGenerateDSYMFile /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app.dSYM /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/MacOS/FPO
+s318418744.905935
+e318418744.986254
+r1
+xGenerateDSYMFile
+x/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app.dSYM
+x/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/MacOS/FPO
+lSLF07#2@84"GenerateDSYMFile build/Release/FPO.app.dSYM build/Release/FPO.app/Contents/MacOS/FPO318418744#318418744#0(0"0(0#0#65"/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/MacOS/FPO8602657312#185"    cd /Users/AJ/Code/cocoa/FPO    /Developer/usr/bin/dsymutil /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/MacOS/FPO -o /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app.dSYM0#
+
+CLd /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/i386/FPO normal i386
+s318418744.240948
+e318418744.821221
+r1
+xLd
+x/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/i386/FPO
+xnormal
+xi386
+lSLF07#2@87"Link /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/i386/FPO318418744#318418744#0(0"0(0#0#0"8599000480#473"    cd /Users/AJ/Code/cocoa/FPO    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/AJ/Code/cocoa/FPO/build/Release -F/Users/AJ/Code/cocoa/FPO/build/Release -filelist /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/i386/FPO.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/i386/FPO0#
+
+CLd /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/ppc/FPO normal ppc
+s318418744.562257
+e318418744.860787
+r1
+xLd
+x/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/ppc/FPO
+xnormal
+xppc
+lSLF07#2@86"Link /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/ppc/FPO318418744#318418744#0(0"0(0#0#0"8611697408#470"    cd /Users/AJ/Code/cocoa/FPO    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/AJ/Code/cocoa/FPO/build/Release -F/Users/AJ/Code/cocoa/FPO/build/Release -filelist /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/ppc/FPO.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/ppc/FPO0#
+
+CLd /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/x86_64/FPO normal x86_64
+s318418744.225495
+e318418744.617637
+r1
+xLd
+x/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/x86_64/FPO
+xnormal
+xx86_64
+lSLF07#2@89"Link /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/x86_64/FPO318418744#318418744#0(0"0(0#0#0"8611156800#479"    cd /Users/AJ/Code/cocoa/FPO    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/AJ/Code/cocoa/FPO/build/Release -F/Users/AJ/Code/cocoa/FPO/build/Release -filelist /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/x86_64/FPO.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/Objects-normal/x86_64/FPO0#
+
+CProcessInfoPlistFile /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Info.plist FPO-Info.plist
+s318418850.152369
+e318418850.155114
+r1
+xProcessInfoPlistFile
+x/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Info.plist
+xFPO-Info.plist
+lSLF07#2@22"Process FPO-Info.plist318418850#318418850#0(0"0(0#0#39"/Users/AJ/Code/cocoa/FPO/FPO-Info.plist8683634528#260"    cd /Users/AJ/Code/cocoa/FPO    builtin-infoPlistUtility FPO-Info.plist -genpkginfo /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-butsbnnujapwpwbvtflcdenvdbri/FPO_Prefix.pch.gch FPO_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318418739.671789
+e318418743.784833
+r1
+xProcessPCH
+x/var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-butsbnnujapwpwbvtflcdenvdbri/FPO_Prefix.pch.gch
+xFPO_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile FPO_Prefix.pch318418739#318418743#0(0"0(0#0#39"/Users/AJ/Code/cocoa/FPO/FPO_Prefix.pch8613617216#1174"    cd /Users/AJ/Code/cocoa/FPO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-generated-files.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-own-target-headers.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-all-target-headers.hmap -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-project-headers.hmap -F/Users/AJ/Code/cocoa/FPO/build/Release -I/Users/AJ/Code/cocoa/FPO/build/Release/include -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources/x86_64 -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources -c /Users/AJ/Code/cocoa/FPO/FPO_Prefix.pch -o /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-butsbnnujapwpwbvtflcdenvdbri/FPO_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-eofcdenhvoxwctefksxdhkfnarud/FPO_Prefix.pch.gch FPO_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s318418739.672985
+e318418744.020562
+r1
+xProcessPCH
+x/var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-eofcdenhvoxwctefksxdhkfnarud/FPO_Prefix.pch.gch
+xFPO_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile FPO_Prefix.pch318418739#318418744#0(0"0(0#0#39"/Users/AJ/Code/cocoa/FPO/FPO_Prefix.pch8611663584#1178"    cd /Users/AJ/Code/cocoa/FPO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-generated-files.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-own-target-headers.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-all-target-headers.hmap -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-project-headers.hmap -F/Users/AJ/Code/cocoa/FPO/build/Release -I/Users/AJ/Code/cocoa/FPO/build/Release/include -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources/ppc -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources -c /Users/AJ/Code/cocoa/FPO/FPO_Prefix.pch -o /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-eofcdenhvoxwctefksxdhkfnarud/FPO_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-fpxdathlycycabgatsqfrhxjwzrc/FPO_Prefix.pch.gch FPO_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318418739.672419
+e318418744.020741
+r1
+xProcessPCH
+x/var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-fpxdathlycycabgatsqfrhxjwzrc/FPO_Prefix.pch.gch
+xFPO_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile FPO_Prefix.pch318418739#318418744#0(0"0(0#0#39"/Users/AJ/Code/cocoa/FPO/FPO_Prefix.pch8610046944#1170"    cd /Users/AJ/Code/cocoa/FPO    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-generated-files.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-own-target-headers.hmap -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-all-target-headers.hmap -iquote /Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/FPO-project-headers.hmap -F/Users/AJ/Code/cocoa/FPO/build/Release -I/Users/AJ/Code/cocoa/FPO/build/Release/include -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources/i386 -I/Users/AJ/Code/cocoa/FPO/build/FPO.build/Release/FPO.build/DerivedSources -c /Users/AJ/Code/cocoa/FPO/FPO_Prefix.pch -o /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-fpxdathlycycabgatsqfrhxjwzrc/FPO_Prefix.pch.gch0#
+
+CTouch /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app
+s318418850.160059
+e318418850.162214
+r1
+xTouch
+x/Users/AJ/Code/cocoa/FPO/build/Release/FPO.app
+lSLF07#2@52"Touch /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app318418850#318418850#0(0"0(0#0#0"8613911808#101"    cd /Users/AJ/Code/cocoa/FPO    /usr/bin/touch -c /Users/AJ/Code/cocoa/FPO/build/Release/FPO.app0#
+

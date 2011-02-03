@@ -1,0 +1,4 @@
+/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m: In function '-[FPOAppDelegate awakeFromNib]':
+/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m:31: error: 'copyImageButton' undeclared (first use in this function)
+/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m:31: error: (Each undeclared identifier is reported only once
+/Users/AJ/Code/cocoa/FPO/FPOAppDelegate.m:31: error: for each function it appears in.)

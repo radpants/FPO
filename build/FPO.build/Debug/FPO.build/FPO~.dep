@@ -1,0 +1,9 @@
+ab8f5990567b611e61655837013807d1 1a0d37ce593aa98c9a9f6bf822b2028f ffffffffffffffffffffffffffffffff 102 /Users/AJ/Code/cocoa/FPO/build/Debug/FPO.app
+f0b4104c046583c26c54559fb7685553 d0f984cc7fae5e90c5ee4b1ccf06d0d2 ffffffffffffffffffffffffffffffff 15056 /Users/AJ/Code/cocoa/FPO/build/Debug/FPO.app/Contents/MacOS/FPO
+000000004d4a40c2000000000002d66a 11d7668db8c4c9c6463e2a426d421db9 ffffffffffffffffffffffffffffffff 34936 /Users/AJ/Code/cocoa/FPO/build/Debug/FPO.app/Contents/Resources/English.lproj/MainMenu.nib
+000000004d4a3f2a000000000000002d 9a15ab9d95740a628ee16cf6141649ae ffffffffffffffffffffffffffffffff 92 /Users/AJ/Code/cocoa/FPO/build/Debug/FPO.app/Contents/Resources/English.lproj/InfoPlist.strings
+00000000000000000000000000000000 0717132fe285c0ffd93b2f9f36f0a911 ffffffffffffffffffffffffffffffff 8 /Users/AJ/Code/cocoa/FPO/build/Debug/FPO.app/Contents/PkgInfo
+00000000000000000000000000000000 0717132fe285c0ffd93b2f9f36f0a911 ffffffffffffffffffffffffffffffff 874 /Users/AJ/Code/cocoa/FPO/build/Debug/FPO.app/Contents/Info.plist
+a9c0bd7966eeffa08a631ad038980cd1 275ad731d4811d2cc4ddd0087ab4702f ffffffffffffffffffffffffffffffff 25040 /Users/AJ/Code/cocoa/FPO/build/FPO.build/Debug/FPO.build/Objects-normal/x86_64/FPOAppDelegate.o
+a9c0bd792ba4c0d88a631ad038980f6b d7eec77d9d7c93e3a8898597cddc83c8 ffffffffffffffffffffffffffffffff 4960 /Users/AJ/Code/cocoa/FPO/build/FPO.build/Debug/FPO.build/Objects-normal/x86_64/main.o
+000000000d8e9542000000000000016c a9c0bd792ba4c0d88a631ad038980f1a ffffffffffffffffffffffffffffffff 54265616 /var/folders/E4/E4UHvg2fHSGNfgstjeBIUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FPO_Prefix-cipxxfjbqfywoubqvdfkamkaahmx/FPO_Prefix.pch.gch
