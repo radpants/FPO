@@ -39,7 +39,14 @@ NSString *LOREM_IPSUM = @"Lorem ipsum dolor sit amet, consectetur adipisicing el
 	CGFloat w = [widthInput floatValue];
 	CGFloat h = [heightInput floatValue];
 	NSRect rect = { 0, 0, w, h };
-	NSImage *img = [self fpoImageWithRect: rect];
+    NSImage *img;
+    if( [placekittenCheckbox state] == NSOffState ){
+        img = [self fpoImageWithRect: rect];
+    }
+    else{
+        img = [self placekittenWithRect: rect];
+    }
+	
 	[self copyImageToClipboard: [img TIFFRepresentation]];
 	[window orderOut:nil];
 }
@@ -56,6 +63,14 @@ NSString *LOREM_IPSUM = @"Lorem ipsum dolor sit amet, consectetur adipisicing el
 
 - (void)quitApplication:(id)sender{
 	[NSApp terminate: nil];
+}
+
+- (NSImage *)placekittenWithRect:(NSRect)rect{
+    NSString *urlString = [[NSString alloc] initWithFormat: @"http://placekitten.com/%d/%d", (int)rect.size.width, (int)rect.size.height];
+    NSLog(@"trying to get url: %@", urlString);
+    NSURL *url = [[NSURL alloc] initWithString: urlString];
+    NSImage *output = [[NSImage alloc] initWithContentsOfURL: url];
+    return output;
 }
 
 - (NSImage *)fpoImageWithRect:(NSRect)rect{

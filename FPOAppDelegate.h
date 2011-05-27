@@ -19,6 +19,7 @@
 	IBOutlet NSTextField *heightInput;
 	IBOutlet NSTextField *widthInput;
 	IBOutlet NSButton *copyImageButton;
+    IBOutlet NSButton *placekittenCheckbox;
 	
 	NSStatusItem *statusItem;
 }
@@ -32,6 +33,7 @@
 
 // helpers
 - (NSImage *)fpoImageWithRect:(NSRect)rect;
+- (NSImage *)placekittenWithRect:(NSRect)rect;
 - (void)copyToClipboard:(NSString*)string;
 - (void)copyImageToClipboard:(NSData *)image;
 
