@@ -20,16 +20,24 @@ NSString *LOREM_IPSUM = @"Lorem ipsum dolor sit amet, consectetur adipisicing el
 
 
 - (void)awakeFromNib{
-	statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] retain];
-	[statusItem setMenu: statusMenu];
-	[statusItem setTitle: @"FPO"];
-	
+    menuIcon = [[NSImage alloc] initWithContentsOfFile: [[NSBundle mainBundle] pathForImageResource:@"status-icon"]];
+    [menuIcon setTemplate: YES];
+    
+	statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSSquareStatusItemLength] retain];
+	//[statusItem setTitle: @"FPO"];
+    [statusItem setImage: menuIcon];
+    [statusItem setAlternateImage: menuIcon];
+    [statusItem setHighlightMode:YES];
+    [statusItem setEnabled: YES];
+    [statusItem setMenu: statusMenu];
+    
+	[statusItem setDoubleAction:@selector(openFpoImageWindow:) ];
 	[loremIpsumItem setAction:@selector(copyLoremIpsum:)];
 	[fpoImageItem setAction:@selector(openFpoImageWindow:)];
 	[quitItem setAction:@selector(quitApplication:)];
 	
-	[window setDefaultButtonCell: copyImageButton];
-	
+    [[copyImageButton cell] setHighlightsBy: NSCellState];
+    [window setCollectionBehavior: NSWindowCollectionBehaviorCanJoinAllSpaces];
 	//NSRect testRect = { 0, 0, 80, 20 };
 	//NSImage *img = [self fpoImageWithRect: testRect];
 	//[self copyImageToClipboard: [img TIFFRepresentation]];
@@ -40,20 +48,46 @@ NSString *LOREM_IPSUM = @"Lorem ipsum dolor sit amet, consectetur adipisicing el
 	CGFloat h = [heightInput floatValue];
 	NSRect rect = { 0, 0, w, h };
     NSImage *img;
-    if( [placekittenCheckbox state] == NSOffState ){
+    
+    if( [imageSourcePopUp indexOfSelectedItem] == 0 ){
         img = [self fpoImageWithRect: rect];
     }
     else{
-        img = [self placekittenWithRect: rect];
+        img = [self fpoImageFromInternet: rect];
     }
+    
 	
 	[self copyImageToClipboard: [img TIFFRepresentation]];
 	[window orderOut:nil];
 }
 
+- (NSImage *)fpoImageFromInternet:(NSRect)rect{
+    NSString *urlString;
+    switch( [imageSourcePopUp indexOfSelectedItem] ){
+        case 1:
+            urlString = [[NSString alloc] initWithFormat: @"http://placekitten.com/%d/%d", (int)rect.size.width, (int)rect.size.height];
+            break;
+        case 2:
+            urlString = [[NSString alloc] initWithFormat: @"http://placehold.it/%dx%d", (int)rect.size.width, (int)rect.size.height];
+            break;
+        case 3:
+            urlString = [[NSString alloc] initWithFormat: @"http://flickholdr.com/%d/%d", (int)rect.size.width, (int)rect.size.height];
+            break;
+        case 4:
+            urlString = [[NSString alloc] initWithFormat: @"http://lorempixum.com/%d/%d", (int)rect.size.width, (int)rect.size.height];
+            break;
+    }
+    
+    NSURL *url = [[NSURL alloc] initWithString: urlString];
+    NSImage *output = [[NSImage alloc] initWithContentsOfURL: url];
+    return output;
+}
+
 - (void)openFpoImageWindow:(id)sender{
-	NSLog(@"clicked");
 	[window makeKeyAndOrderFront:nil];
+    [window makeFirstResponder: widthInput];
+    [NSApp activateIgnoringOtherApps:YES];
+    //[window setFrameOrigin: statusItem.view.frame.origin];
 }
 
 - (void)copyLoremIpsum:(id)sender{
@@ -113,6 +147,18 @@ NSString *LOREM_IPSUM = @"Lorem ipsum dolor sit amet, consectetur adipisicing el
 	
 	[output unlockFocus];
 	return output;
+}
+
+- (IBAction)takeFocusToWidth:(id)sender{
+    NSLog(@"width");
+}
+
+- (IBAction)takeFocusToHeight:(id)sender{
+    NSLog(@"height");
+}
+
+- (IBAction)takeFocusToPopUp:(id)sender{
+    NSLog(@"popup");
 }
 
 - (void)copyToClipboard:(NSString *)string{

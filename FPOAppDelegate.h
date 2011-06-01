@@ -19,7 +19,9 @@
 	IBOutlet NSTextField *heightInput;
 	IBOutlet NSTextField *widthInput;
 	IBOutlet NSButton *copyImageButton;
-    IBOutlet NSButton *placekittenCheckbox;
+    IBOutlet NSPopUpButton *imageSourcePopUp;
+    
+    NSImage *menuIcon;
 	
 	NSStatusItem *statusItem;
 }
@@ -30,10 +32,13 @@
 - (void)copyLoremIpsum:(id)sender;
 - (void)quitApplication:(id)sender;
 - (IBAction)createFpoImage:(id)sender;
+- (IBAction)takeFocusToWidth:(id)sender;
+- (IBAction)takeFocusToHeight:(id)sender;
+- (IBAction)takeFocusToPopUp:(id)sender;
 
 // helpers
 - (NSImage *)fpoImageWithRect:(NSRect)rect;
-- (NSImage *)placekittenWithRect:(NSRect)rect;
+- (NSImage *)fpoImageFromInternet:(NSRect)rect;
 - (void)copyToClipboard:(NSString*)string;
 - (void)copyImageToClipboard:(NSData *)image;
 

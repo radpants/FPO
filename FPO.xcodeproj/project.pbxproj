@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		2140D45C1395D1B900689DCE /* status-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2140D45B1395D1B900689DCE /* status-icon.png */; };
+		2140D45F1395DB0200689DCE /* MiniWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2140D45E1395DB0200689DCE /* MiniWindow.m */; };
+		2140D4621395DEA500689DCE /* MiniWindowFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2140D4611395DEA500689DCE /* MiniWindowFrame.m */; };
+		2140D4641395E2B700689DCE /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2140D4631395E2B700689DCE /* bg.png */; };
+		2140D4661395E4AF00689DCE /* copy-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2140D4651395E4AF00689DCE /* copy-button.png */; };
+		2140D4681395E98C00689DCE /* input-box.png in Resources */ = {isa = PBXBuildFile; fileRef = 2140D4671395E98C00689DCE /* input-box.png */; };
+		2140D46D139602AD00689DCE /* copy-button-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 2140D46C139602AD00689DCE /* copy-button-alt.png */; };
+		2140D46F13960B3800689DCE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2140D46E13960B3800689DCE /* QuartzCore.framework */; };
 		21C9A0B812FA8230004AB588 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C9A0B712FA8230004AB588 /* test.png */; };
 		21E126CF12FAAEF700E58A07 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 21E126CE12FAAEF700E58A07 /* icon.png */; };
 		21E126E012FAAF9F00E58A07 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 21E126DF12FAAF9F00E58A07 /* icon.icns */; };
@@ -22,6 +30,16 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2140D45B1395D1B900689DCE /* status-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status-icon.png"; sourceTree = "<group>"; };
+		2140D45D1395DB0200689DCE /* MiniWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniWindow.h; sourceTree = "<group>"; };
+		2140D45E1395DB0200689DCE /* MiniWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniWindow.m; sourceTree = "<group>"; };
+		2140D4601395DEA500689DCE /* MiniWindowFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniWindowFrame.h; sourceTree = "<group>"; };
+		2140D4611395DEA500689DCE /* MiniWindowFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniWindowFrame.m; sourceTree = "<group>"; };
+		2140D4631395E2B700689DCE /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		2140D4651395E4AF00689DCE /* copy-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "copy-button.png"; sourceTree = "<group>"; };
+		2140D4671395E98C00689DCE /* input-box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input-box.png"; sourceTree = "<group>"; };
+		2140D46C139602AD00689DCE /* copy-button-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "copy-button-alt.png"; sourceTree = "<group>"; };
+		2140D46E13960B3800689DCE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		21C9A0B712FA8230004AB588 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		21E126CE12FAAEF700E58A07 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		21E126DF12FAAF9F00E58A07 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
@@ -40,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2140D46F13960B3800689DCE /* QuartzCore.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +71,10 @@
 			children = (
 				256AC3D80F4B6AC300CF3369 /* FPOAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* FPOAppDelegate.m */,
+				2140D45D1395DB0200689DCE /* MiniWindow.h */,
+				2140D45E1395DB0200689DCE /* MiniWindow.m */,
+				2140D4601395DEA500689DCE /* MiniWindowFrame.h */,
+				2140D4611395DEA500689DCE /* MiniWindowFrame.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -85,6 +108,7 @@
 		29B97314FDCFA39411CA2CEA /* FPO */ = {
 			isa = PBXGroup;
 			children = (
+				2140D46E13960B3800689DCE /* QuartzCore.framework */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -106,6 +130,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2140D46C139602AD00689DCE /* copy-button-alt.png */,
+				2140D4671395E98C00689DCE /* input-box.png */,
+				2140D4651395E4AF00689DCE /* copy-button.png */,
+				2140D4631395E2B700689DCE /* bg.png */,
+				2140D45B1395D1B900689DCE /* status-icon.png */,
 				21E126DF12FAAF9F00E58A07 /* icon.icns */,
 				21E126CE12FAAEF700E58A07 /* icon.png */,
 				21C9A0B712FA8230004AB588 /* test.png */,
@@ -183,6 +212,11 @@
 				21C9A0B812FA8230004AB588 /* test.png in Resources */,
 				21E126CF12FAAEF700E58A07 /* icon.png in Resources */,
 				21E126E012FAAF9F00E58A07 /* icon.icns in Resources */,
+				2140D45C1395D1B900689DCE /* status-icon.png in Resources */,
+				2140D4641395E2B700689DCE /* bg.png in Resources */,
+				2140D4661395E4AF00689DCE /* copy-button.png in Resources */,
+				2140D4681395E98C00689DCE /* input-box.png in Resources */,
+				2140D46D139602AD00689DCE /* copy-button-alt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +229,8 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* FPOAppDelegate.m in Sources */,
+				2140D45F1395DB0200689DCE /* MiniWindow.m in Sources */,
+				2140D4621395DEA500689DCE /* MiniWindowFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +295,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
 			};
@@ -272,6 +308,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
 			};
